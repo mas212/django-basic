@@ -1,0 +1,1 @@
+#cmd: create app --> python manage.py startapp (product --> nama nya app )

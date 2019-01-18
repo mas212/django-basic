@@ -23,5 +23,7 @@ urlpatterns = [
     url(r'^$', view.index),
     url(r'^about/$', view.about),
     url(r'^feture/$', feture.index),
-    url(r'^product/', include('product.urls'))
+    url(r'^product/', include('product.urls')),
+    url(r'^catalog/', include('catalog.urls')),
+    url(r'^member/', include('member.urls'))
 ]

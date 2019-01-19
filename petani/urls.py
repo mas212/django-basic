@@ -25,5 +25,6 @@ urlpatterns = [
     url(r'^feture/$', feture.index),
     url(r'^product/', include('product.urls')),
     url(r'^catalog/', include('catalog.urls')),
-    url(r'^member/', include('member.urls'))
+    url(r'^member/', include('member.urls')),
+    url(r'^items/', include('items.urls'))
 ]

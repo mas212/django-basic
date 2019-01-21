@@ -4,7 +4,8 @@ from django.shortcuts import render
 def index(request):
 	context = {
 		'judul' : 'PYTHON PROGRAMER EXPERT THE NEXT',
-		'kontributor' : 'Hariyanto'
+		'kontributor' : 'Hariyanto',
+		'benner' : 'item/img/adsvokat.png'
 	}
 	return render(request, 'item/index.html', context)
 

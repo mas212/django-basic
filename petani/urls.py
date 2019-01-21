@@ -26,5 +26,6 @@ urlpatterns = [
     url(r'^product/', include('product.urls')),
     url(r'^catalog/', include('catalog.urls')),
     url(r'^member/', include('member.urls')),
-    url(r'^items/', include('items.urls'))
+    url(r'^items/', include('items.urls')),
+    url(r'^data/', include('data.urls'))
 ]

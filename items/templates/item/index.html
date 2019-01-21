@@ -1,9 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
 	<title>{{ judul }}</title>
 </head>
 <body>
+	<img src="{% static benner %}" alt="{{ judul }}" style="width: 100%">
 	<h1>{{ judul }}</h1>
 	<h2>kontributor : {{ kontributor }}</h2>
 </body>
